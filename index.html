@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Snake</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <div class="container">
+        <div class="score current-score">
+            SCORE: 0
+        </div>
+        <div class="score best-score">
+            BEST: 0
+        </div>
+        <div class="field">
+
+        </div>
+        <button class="button">RESTART</button>
+    </div>
+
+    <script type="module">
+        import Main from './main.js';
     
-    <script src="./main.js"></script>
+        let game = new Main();
+      </script>
 </body>
+
 </html>

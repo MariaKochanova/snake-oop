@@ -9,6 +9,7 @@ class Main {
         this.snake = new Snake();
         this.apple = new Apple();
         this.score = new Score(0);
+        console.log('done')
     }
 
     update() {
